@@ -5,9 +5,10 @@ function Child2 (props){
     let CounterValue = useContext(CounterContext1);
     return(
         <div>
-            <h2>This is Child2 function called in Child.js > Parent.js > App.js variable testing = {props.name2}</h2>
+            <h3>Further drilling of props example</h3>
+            <h6>This is Child2 function called in Child.js > Parent.js > App.js variable testing = {props.name2}</h6>
             {/* <h2>This is Child2 function called directly in App.js variable testing = {CounterValue}</h2> */}
-            <h2>This is Child2 function called directly in App.js variable testing = {CounterValue[0]}</h2>
+            <h2>This is Child2 component called directly in App.js variable testing = {CounterValue[0]}</h2>
             <button onClick={()=>{CounterValue[1](++CounterValue[0] )}}>Increment</button>
             {/* <button onClick={()=>setCount(count-1)}> Subtraction   </button> */}
 

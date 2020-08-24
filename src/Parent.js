@@ -6,6 +6,7 @@ const Parent = (props) => {
     return (
         <div>
             <Child name1={props.name} />
+            <h6>Reducer used from Parent.js </h6>
             <ChildReducer />
         </div>
     )

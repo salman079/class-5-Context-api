@@ -7,7 +7,7 @@ const ChildReducer = () => {
 
     return (
         <div>
-            <h1> value of Reducer from state = {state}</h1>
+            <h6> value of Reducer from state = {state}</h6>
             <button onClick={()=>{dispatch('INCREMENT')}}> Increment in Reducer</button>
             <button onClick={()=>{dispatch('DECREMENT')}}> Decrement in Reducer</button>
 
