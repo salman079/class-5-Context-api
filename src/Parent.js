@@ -1,9 +1,13 @@
 import React from 'react';
 import Child from './Child';
+import ChildReducer from './ChildReducer';
 
 const Parent = (props) => {
-    return(
-        <Child name1={props.name}/>
+    return (
+        <div>
+            <Child name1={props.name} />
+            <ChildReducer />
+        </div>
     )
 }
 
