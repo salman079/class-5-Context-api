@@ -1,5 +1,5 @@
 import React , {useReducer} from 'react';
-import CounterReducer from './CounterReducer';
+import CounterReducer from '../Reducer/CounterReducer';
 
 const ChildReducer = () => {
 

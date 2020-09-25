@@ -1,12 +1,12 @@
 import React from 'react';
-import Child from './Child';
-import ChildReducer from './ChildReducer';
+import Child from '../Components/Child';
+import ChildReducer from '../Reducer/ChildReducer';
 
 const Parent = (props) => {
     return (
         <div>
             <Child name1={props.name} />
-            <h6>Reducer used from Parent.js </h6>
+            <p>Reducer used from Parent.js </p>
             <ChildReducer />
         </div>
     )
